@@ -59,7 +59,7 @@ body > main article {
 }
 
 #main-content > div {
-    width: 85%;
+    width: 90%;
 }
 
 form {
@@ -96,4 +96,50 @@ img {
 
 #footer-logo {
     color: aliceblue;
+}
+
+h4 {
+    text-decoration: none;
+    list-style: none;
+    color:slategrey;
+}
+
+aside {
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+footer {
+    padding: 20px;
+}
+
+article > header > h2 {
+    color: lightblue;
+    text-decoration:underline;
+}
+
+article > header > h3 {
+    font-size: 1.5vw;
+    color:black;
+    text-decoration:underline;
+}
+
+article > footer > h2 {
+    font-size: 1.8vw;
+    text-align: left;
+}
+
+article > footer > h3 {
+    font-size: 1.5vw;
+}
+
+#newsletter-questions {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 15px;
+}
+
+h2 {
+    color: lightblue;
 }
